@@ -208,8 +208,8 @@ Dans cet exemple, `background-color:blue;` sera pris en compte car il est marqu�
 
 Si vous êtes à la recherche de jolis designs en pur CSS pour vous inspirer, voici quelques sites intéressants:
 
-`https://cssremix.com/`
+https://cssremix.com/
 
-`http://www.cssmania.com/`
+http://www.cssmania.com/
 
-`http://www.cssleak.com/`
+http://www.cssleak.com/
