@@ -111,7 +111,7 @@ afin de s'afficher.
 
 ### EM
 * Relative à la taille de son parent direct.
-```
+```css
 .cover{
 <!-- font-size : 16px; 100% = 16px -->
 &__mainTitle{
@@ -166,7 +166,7 @@ Pour en savoir bien plus, un lien utile : https://graphism.fr/10-petits-conseils
 
 ### Centrer un bloc...
 
-```
+```css
 p.blocktext {
     margin-left: auto;
     margin-right: auto;
@@ -174,13 +174,13 @@ p.blocktext {
 }
 ```
 
-```
+```html
 <p class="blocktext">Cet étroit bloc de texte est centré. Notez que les lignes à l'intérieur du bloc ne sont pas centrées (elles sont alignées à gauche).</p>
 ```
 
 ### ...ou une image
 
-```
+```css
 img.displayed {
     display: block;
     margin-left: auto;
@@ -188,6 +188,6 @@ img.displayed {
   }
 ```
 
-```
+```html
 <img class="displayed" src="..." alt="...">
 ```
