@@ -191,3 +191,12 @@ img.displayed {
 ```html
 <img class="displayed" src="..." alt="...">
 ```
+
+### Connaître !important
+N'importe quel style marqué avec !important va être directement appliqué au-dessus un autre qui viendrait normalement s'appliquer.
+
+```css
+.page { background-color:blue !important; background-color:red;}
+```
+
+Dans cet exemple, background-color:blue sera pris en compte car il est marqué !important, même s'il y a un background-color:red; derrière lui. !important est donc utilisé afin de forcer l'application d'un style si un autre arrive derrière lui, cependant cela peut ne pas fonctionner sur Internet Explorer.
