@@ -47,19 +47,19 @@
 ```
 exemple en css
 ```
-.mainList{
+.mainList {
 
 }
-.mainList--xmas{
+.mainList--xmas {
 
 }
-.mainList__item{
+.mainList__item {
 
 }
-.mainList__itemLink{
+.mainList__itemLink {
 
 }
-.mainList__itemLink--isActive{
+.mainList__itemLink--isActive {
 
 }
 
@@ -112,9 +112,9 @@ afin de s'afficher.
 ### EM
 * Relative à la taille de son parent direct.
 ```css
-.cover{
+.cover {
 <!-- font-size : 16px; 100% = 16px -->
-&__mainTitle{
+&__mainTitle {
   <!-- 1em = 16px / .8 =/= 12.6px -->
 }
 }
@@ -126,10 +126,10 @@ afin de s'afficher.
 * Le REM est intéressant à utiliser si les media-queries employées sont en rem également. Cela vous permettra de garder des proportions égales lorsqu'on va redimensionner la page.
 * Ses proportions seront également gardées quand l'utilisateur zoomera dans votre page.
 ```css
-html{
+html {
   font-size : 62.5%;
 }
-.mainTitle{
+.mainTitle {
   /* 1.6rem = 16px */
   font-size: 1.6rem;
 /* 32rem = 320px */
