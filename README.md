@@ -163,3 +163,31 @@ Lien utile : https://meyerweb.com/eric/tools/css/reset/
 <= 1024px = tablet paysage, >= 1024px = desktop.
 
 Pour en savoir bien plus, un lien utile : https://graphism.fr/10-petits-conseils-pour-le-responsive-web-design/
+
+### Centrer un bloc...
+
+```
+p.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
+}
+```
+
+```
+<p class="blocktext">Cet étroit bloc de texte est centré. Notez que les lignes à l'intérieur du bloc ne sont pas centrées (elles sont alignées à gauche), contrairement à l'exemple précédent.</p>
+```
+
+### ...ou une image
+
+```
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+```
+
+```
+<img class="displayed" src="..." alt="...">
+```
