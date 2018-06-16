@@ -175,7 +175,7 @@ p.blocktext {
 ```
 
 ```
-<p class="blocktext">Cet étroit bloc de texte est centré. Notez que les lignes à l'intérieur du bloc ne sont pas centrées (elles sont alignées à gauche), contrairement à l'exemple précédent.</p>
+<p class="blocktext">Cet étroit bloc de texte est centré. Notez que les lignes à l'intérieur du bloc ne sont pas centrées (elles sont alignées à gauche).</p>
 ```
 
 ### ...ou une image
