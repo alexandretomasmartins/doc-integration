@@ -213,3 +213,11 @@ https://cssremix.com/
 http://www.cssmania.com/
 
 http://www.cssleak.com/
+
+### Petit conseil pour améliorer son référencement
+
+L’information n’attends pas et Google indexe toujours plus vite... Si vous éditez un blog ou un site dont vous datez les articles, vous aurez surement remarqué que, suite à son indexation dans Google, sous le titre de votre page et juste avant le début de sa description, dans la page des résultats, apparaît la date de publication (et non d’indexation) de votre article.
+
+```html
+<p>Posté le <time datetime="2010-11-29">29.11.2010</time>.</p>
+```
