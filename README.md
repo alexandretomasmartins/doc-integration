@@ -236,7 +236,7 @@ Précisez quand le changement de style aura lieu en pourcentage, ou avec les mot
 Voici un exemple d'utilisation :
 
 ```css
-@keyframes mymove {
+@keyframes myexample {
     0%   {top: 0px; left: 0px; background: red;}
     25%  {top: 0px; left: 100px; background: blue;}
     50%  {top: 100px; left: 100px; background: yellow;}
