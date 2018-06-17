@@ -221,3 +221,26 @@ L’information n’attends pas et Google indexe toujours plus vite... Si vous �
 ```html
 <p>Posté le <time datetime="2010-11-29">29.11.2010</time>.</p>
 ```
+
+### Les keyframes c'est quoi?
+
+
+La règle `@keyframes` spécifie le code d'animation.
+
+L'animation est créée en changeant graduellement d'un ensemble de styles CSS pour un autre.
+
+Pendant l'animation, vous pouvez modifier l'ensemble des styles CSS plusieurs fois.
+
+Précisez quand le changement de style aura lieu en pourcentage, ou avec les mots-clés "from" et "to", qui sont les mêmes que 0% et 100%. 0% est le début de l'animation, 100% est lorsque l'animation est terminée.
+
+Voici un exemple d'utilisation :
+
+```css
+@keyframes mymove {
+    0%   {top: 0px; left: 0px; background: red;}
+    25%  {top: 0px; left: 100px; background: blue;}
+    50%  {top: 100px; left: 100px; background: yellow;}
+    75%  {top: 100px; left: 0px; background: green;}
+    100% {top: 0px; left: 0px; background: red;}
+}
+```
